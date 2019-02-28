@@ -43,13 +43,13 @@ var Jeu = function (joueur, audio) {
       partieTerminer = true;
       switch (evenement.detail.typeMort) {
         case 'alcool':
-          audio.vomi.play();
+          //audio.vomi.play();
           break;
         case 'voiture':
-          audio.heurterVoiture.play();
+          //audio.heurterVoiture.play();
           break;
         case 'cone':
-          audio.HeurterCone.play();
+          //audio.HeurterCone.play();
           break;
       }
     }

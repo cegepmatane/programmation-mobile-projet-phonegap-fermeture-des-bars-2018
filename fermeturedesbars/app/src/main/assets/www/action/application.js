@@ -4,7 +4,7 @@
 
   var connexionNode;
   var joueurActuel;
-  var audio = new Audio();
+  //var audio = new Audio();
   function initialiser() {
 
     this.vueApreciation = new VueApreciation();
@@ -18,9 +18,9 @@
     document.body.addEventListener("transmetre_id_room", naviguerAttenteMultiJoueurAvecIdRoom);
     document.body.addEventListener("cree_joueur", creerJoueurMultijoueur);
     document.body.addEventListener("commencer_multijoueur", commencerMultijoueur);
-    audio.chanson.onload = function(){
-      audio.chanson.play();
-    };
+    //audio.chanson.onload = function(){
+    //  audio.chanson.play();
+    //};
 
     console.log(localStorage['pseudo']);
 
