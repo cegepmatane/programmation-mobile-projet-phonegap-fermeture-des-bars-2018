@@ -4,7 +4,7 @@
 
   var connexionNode;
   var joueurActuel;
-  //var audio = new Audio();
+  
   function initialiser() {
 
     this.vueApreciation = new VueApreciation();
